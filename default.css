@@ -1155,9 +1155,9 @@ nav.navbar.at_top a, nav.navbar.at_top a:visited {
 section#section_about{
 	height: 1100px;
 	background-color: #fff;
-	z-index: 99;
+	/* z-index: 99; */
 	margin-top: -100px;
-	position: relative;;
+	/* position: relative; */
 }
 section#section_about p{
 	font-family: 'Teko', sans-serif;
@@ -1229,8 +1229,8 @@ section#section_about .row{
 
 }
 .earth img{
-	z-index: 0;
-	position: absolute;
+	/* z-index: 0;
+	position: absolute; */
 	width: 800px;
 	margin-top: -80px;
 }
@@ -1246,11 +1246,18 @@ section#section_about .row{
 
 }
 section#section_card{
-	width: 400px;
-	height: 400px;
+	height: 1000px;
 	background-color: #f17b0e;
-	position: absolute;
-	z-index: 1;
-	margin-top: 400px;
-	display: block;
+/* 	position: absolute;
+z-index: 1;
+margin-top: 400px;
+display: block; */
+}
+section#section_hey{
+	height: 1000px;
+	background-color: #f17b0e;
+/* 	position: absolute;
+z-index: 1;
+margin-top: 400px;
+display: block; */
 }
