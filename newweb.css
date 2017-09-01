@@ -24,6 +24,7 @@ nav.navbar a {
 
 nav.navbar.at_top {
   background-color: transparent;
+	ackground-color: #f17b0e;
 }
 nav.navbar li:hover{
 	background-color: #f17b0e;
@@ -32,6 +33,7 @@ nav.navbar li:hover{
 
 nav.navbar.at_top a, nav.navbar.at_top a:visited {
   color: #fff;
+	ackground-color: #f17b0e;
 }
 
 #header
@@ -157,15 +159,16 @@ section#section_about .row{
 .box{
 	width: 600px;
 	height: 400px;
-	background-color: #f17b0e;
+	background-color: #fff;
+	border: 5px solid #f17b0e;
 	margin-left: 30%;
 	margin-top: -200px;
 	position: absolute;
 	border-radius: 25px;
-	/* box-shadow: 5px 5px 20px #f5f1f4; */
+	box-shadow: 0px 0px 20px #b3b4b2;
 	animation: jump 2s infinite;
 }
-@keyframes jump{
+/* @keyframes jump{
 	0%{
 		margin-top: -200px;
 	}
@@ -175,7 +178,7 @@ section#section_about .row{
 	100%{
 		margin-top: -200px;
 	}
-}
+} */
 .sml img{
 	animation: sml 1s infinite;
 }
