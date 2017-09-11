@@ -44,7 +44,7 @@ background-size: 30px 60px;
   background-repeat: no-repeat;
 -webkit-background-size: cover; */
 	/*background-size: cover;*/
-	height: 900px;
+	height: 800px;
 	/* width: 100%; */
 
 	/* -ms-transform: rotate(3deg); IE 9
@@ -108,42 +108,44 @@ hr{
 	}
 }
 section#section_card{
-	height: 1000px;
-background-color: #fff;
+	height: 200px;
+	background-color: #fff;
 
 }
 section#section_about{
-	height: 1100px;
-	background-color: #fff;
+	height: 250px;
+	background-color: #f4f5f4;
 	/* z-index: 99; */
-	margin-top: -100px;
+
 	/* position: relative; */
 }
 section#section_about p{
 	font-family: 'Teko', sans-serif;
 	color: #f17b0e;
-	font-size: 60px;
+	font-size: 40px;
 	text-align: center;
-	margin-top: 70px;
+	margin-top: 30px;
 }
 section#section_about .row{
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+
 
 }
 .earth{
-	width: 500px;
+	width: 600px;
 	margin-top: 270px;
-	margin-left: 500px;
+	/* margin-left: 800px; */
 	animation: jump 3s infinite;
-	overflow: hidden;
+
 
 }
 .earth img{
 	/* z-index: 0;
 	position: absolute; */
-	width: 800px;
-	margin-top: -80px;
+	width: 300px;
+	margin-top: 60px;
+  margin-left: 750px;
 }
 /* @keyframes jump{
 	0%{
@@ -192,4 +194,62 @@ section#section_about .row{
 	100%{
 		margin-top: -70px;
 	}
+}
+.circle{
+	width: 70px;
+	height: 70px;
+	/* border-radius: 50%; */
+	/* background-color: #f17b0e; */
+	margin: 20px 40px 20px 40px;
+
+
+
+
+}
+.circle1{
+	background-image: url("images/medium.svg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 20px;
+}
+
+.circle2{
+	background-image: url("images/github-logo.svg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 20px;
+
+}
+.circle3{
+	background-image: url("images/linkedin-logo.svg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 20px;
+
+}
+.circle4{
+	background-image: url("images/3d-outlined-shape.svg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 20px;
+
+}
+.circle5{
+	background-image: url("images/voicetube.png");
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 20px;
+
+}
+.circle6{
+	background-image: url("images/facebook-logo.svg");
+	-webkit-background-size: cover;
+	background-size: cover;
+	padding: 20px;
+
+}
+.col-sm-2:hover{
+	border: 4px solid #f17b0e;
+	/* padding: 50px; */
+	
 }
