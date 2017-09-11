@@ -115,7 +115,8 @@ section#section_card{
 }
 section#section_about{
 	height: 250px;
-	background-color: #f4f5f4;
+	background-color: #fff;
+	/* background-color: #f4f5f4; */
 	/* z-index: 99; */
 
 	/* position: relative; */
@@ -448,4 +449,28 @@ li[data-date]{
     text-align: left;
     padding-right: 0;
   }
+}
+/*section_award*/
+#section_award{
+	height: 700px;
+	background-color: #f1f2f4;
+}
+#section_award h1{
+	font-family: 'Teko', sans-serif;
+	color: #f17b0e;
+	font-size: 60px;
+	padding-top: 40px;
+	margin-left: 45%;
+	margin-top: 0px;
+}
+#section_award .col-sm-12{
+	padding: 20px;
+	margin: 2%;
+}
+.square{
+	height: 400px;
+	background-color: #f17b0e;
+	box-shadow: 10px 10px 15px #888888;
+  margin: 2%;
+	width: 20%;
 }
